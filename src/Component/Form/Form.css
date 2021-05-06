@@ -1,0 +1,51 @@
+.input:hover {
+    box-shadow: 0px 0px 15px rgb(177, 177, 177);
+}
+
+.input,
+.MuiInputBase-input,
+.MuiOutlinedInput-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    display: flex;
+    color: grey;
+    height: 45px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 80%;
+    outline-color: rgb(47, 255, 47);
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+    /* outline: none; */
+    margin-top: 100px;
+    box-shadow: 0px 0px 8px lightgray;
+    transition: 0.5s;
+}
+
+.search_btn {
+    padding: 5px 10px;
+    border: none;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    transition: 0.5s;
+}
+
+.search_btn:hover {
+    background-color: rgb(0, 89, 255);
+    outline: none;
+    border: none;
+}
+
+.validate_form {
+    margin-bottom: 250px;
+    transition: 00.5s;
+}
+.not_register {
+    padding: 10px;
+    transition: 0.5s;
+}
