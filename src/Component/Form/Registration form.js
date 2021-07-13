@@ -70,7 +70,7 @@ export default function SignUp() {
                     <Typography component="h1" variant="h5">
                         Register
                     </Typography>
-                    <form className={classes.form} onSubmit={handleSubmit}>
+                    <form action="" method="POST" className={classes.form} onSubmit={handleSubmit}>
                         <Grid container spacing={2}>
                             <Grid item xs={12} sm={6}>
                                 <TextField

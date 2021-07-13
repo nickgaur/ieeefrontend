@@ -31,10 +31,13 @@
 }
 
 .close {
-    position: fixed;
-    margin-left: 90%;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 10px;
+    z-index: 1;
     /* right: 20; */
 }
+
 
 .cl {
     width: 50px !important;
@@ -54,15 +57,17 @@
 .thumbs {
     display: none;
 }
+
 .backToTop {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin: 30px 30px;
+    /* display: none; */
+    margin: 0 30px -50px 0;
     z-index: 1;
     background-image: radial-gradient(circle, rgb(78, 109, 150), rgb(62,62,63));
-    transition: 20s;
+    /* transition:  2s; */
 }

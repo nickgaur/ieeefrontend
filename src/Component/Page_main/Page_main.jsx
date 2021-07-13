@@ -4,6 +4,7 @@ import "../Card/Card_main.css";
 import "./Page_main.css";
 import { Link } from "react-router-dom";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { AddToPhotos } from "@material-ui/icons";
 
 export default function Page_main({
@@ -22,7 +23,7 @@ export default function Page_main({
 }) {
   return (
     <div className="page_main">
-      <a href="#">
+      <a href="#" className="linking">
         <div className="backToTop">
           <ExpandLessIcon
             style={{ color: "#fff", height: "auto", width: "100%" }}
@@ -31,10 +32,8 @@ export default function Page_main({
       </a>
       <div className="col-md-12">
         <Link to="/">
-          <button type="button" className="close" aria-label="Close">
-            <span className="cl" aria-hidden="true">
-              &times;
-            </span>
+          <button type="button" className="close" aria-label="close">
+            <ArrowBackIcon style={{height: "30px", width: "40px"}}/>
           </button>
         </Link>
         <center>

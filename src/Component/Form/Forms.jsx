@@ -5,6 +5,8 @@ import validator from "validator";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import useValidateUser from "../../sevices/useValidateUser";
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+
 
 class ScrollToTopOnMount extends React.Component {
     componentDidMount() {
@@ -92,12 +94,10 @@ export default function Forms() {
                 pauseOnHover
             />
             <Link to="/">
-                <button type="button" className="close" aria-label="Close">
-                    <span className="cl" aria-hidden="true">
-                        &times;
-                    </span>
-                </button>
-            </Link>
+          <button type="button" className="close" aria-label="close">
+            <ArrowBackIcon style={{height: "30px", width: "40px"}}/>
+          </button>
+        </Link>
             <h1
                 align="center"
                 style={{
