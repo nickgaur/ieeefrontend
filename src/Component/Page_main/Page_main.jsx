@@ -23,13 +23,13 @@ export default function Page_main({
 }) {
   return (
     <div className="page_main">
-      <a href="#" className="linking">
         <div className="backToTop">
+      <a href="#" className="linking">
           <ExpandLessIcon
             style={{ color: "#fff", height: "auto", width: "100%" }}
           />
-        </div>
       </a>
+        </div>
       <div className="col-md-12">
         <Link to="/">
           <button type="button" className="close" aria-label="close">

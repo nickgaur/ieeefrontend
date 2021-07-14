@@ -58,16 +58,28 @@
     display: none;
 }
 
-.backToTop {
+/* .backToTop {
     position: absolute;
     bottom: 0;
     right: 0;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    /* display: none; */
     margin: 0 30px -50px 0;
     z-index: 1;
     background-image: radial-gradient(circle, rgb(78, 109, 150), rgb(62,62,63));
-    /* transition:  2s; */
+} */
+
+.backToTop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 30px 30px 0;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.6s;
+    background-image: radial-gradient(circle, rgb(78, 109, 150), rgb(62,62,63));
 }
