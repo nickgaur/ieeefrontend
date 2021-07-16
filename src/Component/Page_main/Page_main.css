@@ -83,3 +83,10 @@
     transition: opacity 0.6s;
     background-image: radial-gradient(circle, rgb(78, 109, 150), rgb(62,62,63));
 }
+
+
+@media only screen and (max-width: 524px){
+    .page_heading {
+        width: 200px;
+    }
+}
